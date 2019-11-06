@@ -1,3 +1,9 @@
+# Policy files - don't save, we want to re-train each time
+policy_p1
+policy_p2
+
+# Idea files
+.idea
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -89,6 +95,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+*-venv/
 
 # Spyder project settings
 .spyderproject
